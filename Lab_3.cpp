@@ -67,6 +67,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		free(matrix[i]);
 	}
+    std::cout << "Changes for git\n";
 	free(matrix);
 	return 0;
 }
